@@ -1,0 +1,28 @@
+# Credenciales y variables de entorno
+.env
+.env.*
+*.pem
+*.key
+aws_credentials
+.aws/
+
+# Archivos de entorno virtual de Python
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Archivos de datos o temporales
+*.csv
+*.json
+*.parquet
+*.log
+*.sqlite
+*.db
+
+# Archivos de IDEs
+.vscode/
+.idea/
+.DS_Store
